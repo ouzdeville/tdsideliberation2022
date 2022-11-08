@@ -11,6 +11,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 /**
  *
  * @author asus
@@ -30,4 +32,6 @@ public class Filiere {
     @Column(length = 5,nullable = true)
     private String sigle;
     private String description;
+    @OneToMany(mappedBy = "filiere")
+    List<Niveau> niveauList;
 }

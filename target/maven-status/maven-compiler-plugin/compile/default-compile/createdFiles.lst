@@ -1,1 +1,6 @@
+com\tdsi\deliberation\model\Filiere.class
+com\tdsi\deliberation\service\FiliereServiceImpl.class
 com\tdsi\deliberation\DeliberationApplication.class
+com\tdsi\deliberation\controller\FiliereController.class
+com\tdsi\deliberation\service\FiliereService.class
+com\tdsi\deliberation\repository\FiliereRepository.class

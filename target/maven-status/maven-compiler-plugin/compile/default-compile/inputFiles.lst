@@ -1,1 +1,6 @@
-E:\dev\m1tdsi\springBoot\deliberation\deliberation\src\main\java\com\tdsi\deliberation\DeliberationApplication.java
+E:\dev\m1tdsi\springBoot\tdsideliberation2022\src\main\java\com\tdsi\deliberation\DeliberationApplication.java
+E:\dev\m1tdsi\springBoot\tdsideliberation2022\src\main\java\com\tdsi\deliberation\model\Filiere.java
+E:\dev\m1tdsi\springBoot\tdsideliberation2022\src\main\java\com\tdsi\deliberation\service\FiliereServiceImpl.java
+E:\dev\m1tdsi\springBoot\tdsideliberation2022\src\main\java\com\tdsi\deliberation\controller\FiliereController.java
+E:\dev\m1tdsi\springBoot\tdsideliberation2022\src\main\java\com\tdsi\deliberation\service\FiliereService.java
+E:\dev\m1tdsi\springBoot\tdsideliberation2022\src\main\java\com\tdsi\deliberation\repository\FiliereRepository.java
