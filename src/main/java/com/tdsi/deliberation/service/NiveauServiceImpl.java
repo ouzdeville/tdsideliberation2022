@@ -28,7 +28,7 @@ public class NiveauServiceImpl implements NiveauService{
         return niveauRepository.findById(id).
                 map( p->{
                     p.setNom(niveau.getNom());
-                    p.setOption(niveau.getOption());
+                    p.setOptionel(niveau.getOptionel());
                     p.setFiliere(niveau.getFiliere());
                     return niveauRepository.save(p);
                 }).orElseThrow(()-> new RuntimeException("Niveau non trouver"));

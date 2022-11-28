@@ -1,28 +1,25 @@
 package com.tdsi.deliberation.model;
 
 
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
-@Table(name = "niveau")
+@Table(name = "cohorte")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Niveau {
+public class Cohorte {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(nullable = false)
+
     private String nom;
-    private String optionel;
     @ManyToOne
-    private Filiere filiere;
-    @OneToMany(mappedBy = "niveau")
-    List<Promo> promoList;
+    private Promo promo;
+    private int nombre;
 }
